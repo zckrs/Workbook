@@ -1,4 +1,4 @@
-angular.module('directives.media', [])
+angular.module('directives.media', ['security.authorization', 'ngSanitize'])
 
 .directive('media', function() {
   return {
